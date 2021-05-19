@@ -23,6 +23,7 @@ function NotesApp() {
         <a
           className="link"
           href="https://www.figma.com/file/6cu6pc5ytMy2Ess7vYackW/NotesApp?node-id=0%3A1"
+          target="_blank"
         >
           here
         </a>

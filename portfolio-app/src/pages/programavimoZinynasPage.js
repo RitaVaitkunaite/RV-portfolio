@@ -22,6 +22,7 @@ function ProgramavimoZinynas() {
         <a
           className="link"
           href="https://www.figma.com/file/2H36JtV2OQiS3YTwWzWVci/Programavimo-zinynas-v.0.0.2?node-id=0%3A1"
+          target="_blank"
         >
           here
         </a>

@@ -1,12 +1,23 @@
 .about-card {
-  width: 40%;
-  height: 70%;
-  background-color: #5487d4;
+  background-color: #ffffff;
+  width: 35%;
+  height: 75%;
+  margin-top: 50px;
+  margin-left: 120px;
+  padding: 20px;
+}
+.main-section {
+  background-color: #f0f0f0;
+  width: 780px;
+  height: 355px;
+  border-radius: 10px;
+  display: flex;
 }
 .about-section {
-  padding: 50px 0 0 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .about-icons {
   display: flex;
   padding-left: 30px;
@@ -18,4 +29,46 @@
 }
 #gmail-icon {
   margin-top: 1.3px;
+  margin-right: 20px;
+}
+.image-section {
+  width: 20%;
+  height: 20%;
+  margin-top: 150px;
+  margin-left: 70px;
+}
+.about-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+}
+.main-section-image {
+  width: 20%;
+  height: 20%;
+  margin-left: 43px;
+  margin-top: 75px;
+}
+.main-section-paragraph {
+  padding-left: 55px;
+  padding-top: 50px;
+}
+.main-section-body {
+  font-size: 20px;
+  color: #464646;
+  font-weight: 400;
+  margin-top: 5px;
+  line-height: 1.8;
+}
+.main-section-title {
+  font-weight: 600;
+  font-size: 26px;
+  color: #464646;
+  margin-top: 5px;
+}
+.main-section-icons {
+  display: flex;
 }
