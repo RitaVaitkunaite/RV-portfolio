@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/RV-portfolio/static/css/main.299df89e.chunk.css",
+    "main.js": "/RV-portfolio/static/js/main.d2c32d81.chunk.js",
+    "main.js.map": "/RV-portfolio/static/js/main.d2c32d81.chunk.js.map",
+    "runtime-main.js": "/RV-portfolio/static/js/runtime-main.f7f0a667.js",
+    "runtime-main.js.map": "/RV-portfolio/static/js/runtime-main.f7f0a667.js.map",
+    "static/js/2.09424736.chunk.js": "/RV-portfolio/static/js/2.09424736.chunk.js",
+    "static/js/2.09424736.chunk.js.map": "/RV-portfolio/static/js/2.09424736.chunk.js.map",
+    "static/js/3.ffd175c0.chunk.js": "/RV-portfolio/static/js/3.ffd175c0.chunk.js",
+    "static/js/3.ffd175c0.chunk.js.map": "/RV-portfolio/static/js/3.ffd175c0.chunk.js.map",
+    "index.html": "/RV-portfolio/index.html",
+    "static/css/main.299df89e.chunk.css.map": "/RV-portfolio/static/css/main.299df89e.chunk.css.map",
+    "static/js/2.09424736.chunk.js.LICENSE.txt": "/RV-portfolio/static/js/2.09424736.chunk.js.LICENSE.txt",
+    "static/media/Group56.517b8a73.png": "/RV-portfolio/static/media/Group56.517b8a73.png",
+    "static/media/Group59.53a15803.png": "/RV-portfolio/static/media/Group59.53a15803.png",
+    "static/media/Group64.08831338.png": "/RV-portfolio/static/media/Group64.08831338.png",
+    "static/media/Group7.7b97d619.png": "/RV-portfolio/static/media/Group7.7b97d619.png",
+    "static/media/a-b.0c4c58f4.png": "/RV-portfolio/static/media/a-b.0c4c58f4.png",
+    "static/media/android.52ba7b43.png": "/RV-portfolio/static/media/android.52ba7b43.png",
+    "static/media/group19.d1686925.png": "/RV-portfolio/static/media/group19.d1686925.png",
+    "static/media/hf-wireframe.44a908de.png": "/RV-portfolio/static/media/hf-wireframe.44a908de.png",
+    "static/media/img11.8c58d32e.png": "/RV-portfolio/static/media/img11.8c58d32e.png",
+    "static/media/img13.f68154a5.png": "/RV-portfolio/static/media/img13.f68154a5.png",
+    "static/media/new_wireframe.66c2447b.png": "/RV-portfolio/static/media/new_wireframe.66c2447b.png",
+    "static/media/persona.04ad2896.png": "/RV-portfolio/static/media/persona.04ad2896.png",
+    "static/media/wireframe1.eedca5b6.png": "/RV-portfolio/static/media/wireframe1.eedca5b6.png",
+    "static/media/wireframe_old1.110f19b9.png": "/RV-portfolio/static/media/wireframe_old1.110f19b9.png",
+    "static/media/wireframes_new.a3f8db5f.png": "/RV-portfolio/static/media/wireframes_new.a3f8db5f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7f0a667.js",
+    "static/js/2.09424736.chunk.js",
+    "static/css/main.299df89e.chunk.css",
+    "static/js/main.d2c32d81.chunk.js"
+  ]
+}
