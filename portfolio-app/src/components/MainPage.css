@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins";
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  right: 20px;
+}
+.navbar ul {
+  list-style: none;
+  text-align: right;
+  color: #464646;
+}
+
+.projects-section {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.navbar .active {
+  border-bottom: 3px solid #5487d4;
+}
+.about-section {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.contact-section {
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+  background-color: brown;
+}
+
+.image-layout {
+  display: flex;
+  justify-content: space-evenly;
+}
+.projects-section-wrapper > h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+.card img {
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.6rem 0.4rem rgba(0, 0, 0, 0.15);
+}
