@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RV-portfolio/static/css/main.d24473d2.chunk.css",
-    "main.js": "/RV-portfolio/static/js/main.2c279e52.chunk.js",
-    "main.js.map": "/RV-portfolio/static/js/main.2c279e52.chunk.js.map",
+    "main.js": "/RV-portfolio/static/js/main.ef754da2.chunk.js",
+    "main.js.map": "/RV-portfolio/static/js/main.ef754da2.chunk.js.map",
     "runtime-main.js": "/RV-portfolio/static/js/runtime-main.f7f0a667.js",
     "runtime-main.js.map": "/RV-portfolio/static/js/runtime-main.f7f0a667.js.map",
     "static/js/2.09424736.chunk.js": "/RV-portfolio/static/js/2.09424736.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.f7f0a667.js",
     "static/js/2.09424736.chunk.js",
     "static/css/main.d24473d2.chunk.css",
-    "static/js/main.2c279e52.chunk.js"
+    "static/js/main.ef754da2.chunk.js"
   ]
 }
