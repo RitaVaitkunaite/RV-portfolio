@@ -15,8 +15,8 @@ const About = () => {
         <div className="main-section-paragraph">
           <h1 className="main-section-title">Hi, my name is Rita</h1>
           <h3 className="main-section-body">
-            I am currently an Information System student<br></br> but I aspire
-            to become an UX/UI designer.
+            I am currently a Information System student<br></br> but I aspire to
+            become a UX/UI designer.
           </h3>
           <h3 className="main-section-body">
             To contact me, you can use these links:
