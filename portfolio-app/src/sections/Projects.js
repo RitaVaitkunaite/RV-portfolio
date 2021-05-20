@@ -20,7 +20,7 @@ const Projects = () => {
             <Link to="/projects/programavimoZinynas">
               <img src={ProgramavimoZ}></img>
             </Link>
-            <p>Programavimo žinynas</p>
+            <p className="under-text">Programavimo žinynas</p>
           </div>
         </div>
       </div>
