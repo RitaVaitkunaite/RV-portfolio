@@ -5,6 +5,11 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div className="navbar">
+      <div className="logo">
+        <ul>
+          <li>Rita Vaitkūnaitė</li>
+        </ul>
+      </div>
       <ul>
         <Link
           activeClass="active"
@@ -13,7 +18,12 @@ const Navbar = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          style={{ marginRight: 10, fontSize: 15, cursor: "pointer" }}
+          style={{
+            marginRight: 50,
+            fontSize: 16,
+            cursor: "pointer",
+            fontWeight: "bolder",
+          }}
         >
           About
         </Link>
@@ -24,7 +34,12 @@ const Navbar = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          style={{ marginRight: 10, fontSize: 15, cursor: "pointer" }}
+          style={{
+            marginRight: 50,
+            fontSize: 16,
+            cursor: "pointer",
+            fontWeight: "bolder",
+          }}
         >
           Projects
         </Link>

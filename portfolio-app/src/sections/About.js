@@ -11,7 +11,20 @@ import Mail from "./mail.png";
 const About = () => {
   return (
     <div className="about-section" id="about">
-      <div className="main-section">
+      <div className="greetings-section">
+        <h2>Welcome!</h2>
+        <div className="name">
+          <h2>I'm</h2>
+          <h2 className="highlighted-name">Rita</h2>
+        </div>
+      </div>
+      <div className="text-section">
+        <p>
+          I am aspiring UX/UI designer and information systems student at VGTU,
+          who’s passionate about making meaningful impact on something{" "}
+        </p>
+      </div>
+      {/* <div className="main-section">
         <div className="main-section-paragraph">
           <h1 className="main-section-title">Hi, my name is Rita</h1>
           <h3 className="main-section-body">
@@ -36,7 +49,7 @@ const About = () => {
         <div className="main-section-image">
           <img className="main-image" src={Me}></img>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

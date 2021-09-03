@@ -6,7 +6,7 @@
   margin-left: 120px;
   padding: 20px;
 }
-.main-section {
+/* .main-section {
   background-color: #f0f0f0;
   width: 780px;
   height: 355px;
@@ -17,6 +17,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+.text-section {
+  width: 820px;
+  height: 276px;
+  margin-left: 3rem;
+  margin-top: -7rem;
+  font-size: 24px;
+}
+.name {
+  display: flex;
+  margin-top: -8rem;
+  margin-left: 0.6rem;
+  padding-bottom: 3rem;
+}
+.highlighted-name {
+  margin-left: 2rem;
+  color: #5d3ed9;
+}
+.greetings-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-left: 3rem;
+  font-size: 50px;
 }
 .about-icons {
   display: flex;

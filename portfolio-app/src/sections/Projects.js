@@ -3,11 +3,19 @@ import { render } from "react-dom";
 import notesApp from "./img11.png";
 import ProgramavimoZ from "./img13.png";
 import { Link } from "react-router-dom";
-
+import ds from "./../sections/Group58.png";
 const Projects = () => {
   return (
     <div className="projects-section" id="projects">
-      <div className="projects-section-wrapper">
+      <div>My Projects</div>
+      <div>
+        <div>
+          <h2>Programavimo Žinynas</h2>
+          <p>App that helps people program better</p>
+          <img className="image-header" src={ds}></img>
+        </div>
+      </div>
+      {/* <div className="projects-section-wrapper">
         <h2>Projects</h2>
         <div className="image-layout">
           <div className="card">
@@ -23,7 +31,7 @@ const Projects = () => {
             <p className="under-text">Programavimo žinynas</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
