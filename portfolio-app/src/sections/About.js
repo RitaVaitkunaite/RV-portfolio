@@ -20,8 +20,9 @@ const About = () => {
       </div>
       <div className="text-section">
         <p>
-          I am aspiring UX/UI designer and information systems student at VGTU,
-          who’s passionate about making meaningful impact on something{" "}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+          aliquam, purus sit Lorem ipsum dolor sdsds
         </p>
       </div>
       {/* <div className="main-section">

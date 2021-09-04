@@ -3,17 +3,75 @@ import { render } from "react-dom";
 import notesApp from "./img11.png";
 import ProgramavimoZ from "./img13.png";
 import { Link } from "react-router-dom";
-import ds from "./../sections/Group58.png";
+import ds from "./../sections/Group48.png";
 const Projects = () => {
   return (
     <div className="projects-section" id="projects">
-      <div>My Projects</div>
-      <div>
-        <div>
+      <div className="projects">
+        <h2>My Projects</h2>
+      </div>
+      <div className="project-container-align">
+        <div className="project-container-flex">
+          <div className="project-container">
+            {/* <p className="tags">UX Design, Internship</p> */}
+            <h2>Volunteering app "Drauge"</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit Lorem{" "}
+            </p>
+            <img className="image-header" src={ds}></img>
+          </div>
+          <div className="project-container">
+            <h2>Twitch UX/UI upgrade</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit Lorem{" "}
+            </p>
+            <img className="image-header" src={ds}></img>
+          </div>
+        </div>
+        <div className="project-container-flex">
+          <div className="project-container">
+            <h2>Notes Application</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit Lorem{" "}
+            </p>
+            <img className="image-header" src={ds}></img>
+          </div>
+          <div className="project-container">
+            <h2>Programavimo Žinynas</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit Lorem{" "}
+            </p>
+            <img className="image-header" src={ds}></img>
+          </div>
+        </div>
+        {/* <div className="project-container">
           <h2>Programavimo Žinynas</h2>
-          <p>App that helps people program better</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit Lorem{" "}
+          </p>
           <img className="image-header" src={ds}></img>
         </div>
+        <div className="project-container">
+          <h2>Programavimo Žinynas</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit Lorem{" "}
+          </p>
+          <img className="image-header" src={ds}></img>
+        </div>
+        <div className="project-container">
+          <h2>Programavimo Žinynas</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit Lorem{" "}
+          </p>
+          <img className="image-header" src={ds}></img>
+        </div> */}
       </div>
       {/* <div className="projects-section-wrapper">
         <h2>Projects</h2>
