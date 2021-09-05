@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import "./About.css";
+import "./../components/MainPage.css";
 import LinkedIn from "./linkedin.png";
 
 import Me from "./Ellipse28.png";
@@ -12,7 +13,7 @@ const About = () => {
   return (
     <div className="about-section" id="about">
       <div className="greetings-section">
-        <h2>Welcome!</h2>
+        <h2 className="greetings-title">Welcome!</h2>
         <div className="name">
           <h2>I'm</h2>
           <h2 className="highlighted-name">Rita</h2>
@@ -20,9 +21,10 @@ const About = () => {
       </div>
       <div className="text-section">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-          purus sit Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-          aliquam, purus sit Lorem ipsum dolor sdsds
+          I am an aspiring UX/UI designer who’s passionate about making
+          meaningful impacts on the lives of others. Innovative technologies and
+          smart decisions - that's what I believe is needed to make life easier
+          and simpler for all of us.
         </p>
       </div>
       {/* <div className="main-section">

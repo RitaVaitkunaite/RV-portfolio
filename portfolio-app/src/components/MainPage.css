@@ -7,6 +7,8 @@
   position: fixed;
   top: 0;
   width: 100%;
+  height: 8vh;
+  display: flex;
 }
 .navbar ul {
   list-style: none;
@@ -43,11 +45,117 @@
   color: #464646;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: #d7d7d7 1px solid;
+  align-items: center;
+  margin-right: 400px;
+}
+.logo {
+  margin-left: -544px;
+  font-weight: bolder;
+}
+.navbar ul {
+  list-style: none;
+  text-align: right;
+  color: #464646;
+}
+
+.projects-section {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+}
+.image-header {
+  width: 80%;
+}
+.projects {
+  width: 100%;
+}
+.projects h2 {
+  font-size: 26px;
+  margin-top: 4rem;
+  margin-left: 5.5rem;
+  color: #464646;
+}
+.tags {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.4rem;
+  margin-top: 3rem;
+}
+.project-container-align {
+  margin-top: 3rem;
+}
+.project-container h2 {
+  color: #464646;
+  margin-top: 1rem;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+}
+.project-container p {
+  color: #464646;
+  width: 23rem;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: regular;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+.project-container-flex {
+  display: flex;
+  row-gap: 2rem;
+}
+.image-header001 {
+  width: 41%;
+}
+.text-overflow {
+  text-overflow: ellipsis;
+}
+.navbar > .active {
+  border-bottom: 1px solid #333;
+}
+.about-section {
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+  /* background-color: blueviolet; */
+  margin-top: -22px;
+  background-color: yellow;
+}
+.contact-section {
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+  background-color: brown;
+}
+
+.image-layout {
+  display: flex;
+  justify-content: space-evenly;
+}
+.projects-section-wrapper > h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #464646;
+}
+
 .card p {
   text-align: center;
-  font-weight: 500;
+  font-weight: bolder;
   margin-top: 5px;
-  color: #464646;
 }
 .card img {
   border-radius: 0.8rem;

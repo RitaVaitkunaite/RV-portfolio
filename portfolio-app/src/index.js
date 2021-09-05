@@ -10,7 +10,7 @@ import notesAppPage from "./pages/notesAppPage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>
       <Switch>
         <Route exact path="/" component={MainPage} />
         <Route path="/projects/notesApp" component={notesAppPage} />

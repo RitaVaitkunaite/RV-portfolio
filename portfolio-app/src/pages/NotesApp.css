@@ -1,17 +1,123 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  margin-top: 0;
+}
+.paragraph-container {
+  margin-left: 85px;
 }
 
+.subclass {
+  color: #3e7bc3;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 22px;
+  padding-bottom: 25px;
+}
+.large-title {
+  font-weight: 600;
+  font-size: 26px;
+}
 .main-title {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+.text-field {
+  width: 91%;
+  line-height: 2.2;
+  padding-top: 16px;
+}
+.text-field-normal {
+  width: 91%;
+  line-height: 2.2;
+}
 
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+.solution-image {
+  width: 50%;
+  margin-right: 50px;
+}
+.text-title {
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+.solution-text {
+  width: 59%;
+  line-height: 2.2;
+  padding-top: 16px;
+}
+.solution-image-big {
+  width: 40%;
+  margin-right: 110px;
+}
+.solution-image-big001 {
+  width: 29%;
+  margin-right: 175px;
+}
+.text-title-sub {
+  text-transform: uppercase;
+}
 .main-header {
   width: 80%;
 }
+.text-flex-container {
+  display: flex;
+  flex-direction: column;
+}
 
+.competitors {
+  display: flex;
+  flex-direction: column;
+}
+.competitors-img {
+  width: 70%;
+  padding-bottom: 30px;
+}
+.versions {
+  padding-top: 27px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.container-logo {
+  display: flex;
+}
+.logo {
+  width: 60%;
+}
+
+.image-container-4 {
+  width: 70%;
+}
+.image-container-3 {
+  width: 70%;
+  padding-top: 40px;
+}
+.image-container-2 {
+  width: 40%;
+  padding-top: 20px;
+}
+.image-container-1 {
+  width: 20%;
+  padding-top: 20px;
+}
+.view-btn {
+  padding: 15px 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  border: none;
+  color: #f0f0f0;
+  background-color: #3e7bc3;
+  font-weight: bolder;
+  cursor: pointer;
+}
 .img-holder {
   display: flex;
   justify-content: center;
@@ -21,7 +127,7 @@
   margin-left: 130px;
   font-size: 24px;
   font-weight: bolder;
-  color: #4e6780;
+  color: #714e80;
 }
 .section-body {
   margin-left: 130px;
@@ -52,11 +158,7 @@
 }
 .link {
   font-weight: bolder;
-  color: #4e6780;
+  color: #714e80;
   margin-left: 3px;
   text-decoration: none;
-}
-.body-images-na {
-  width: 20%;
-  height: 20%;
 }

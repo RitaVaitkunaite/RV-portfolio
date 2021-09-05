@@ -1,163 +1,272 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Main.css";
-import Header from "./Group64.png";
-import Persona from "./persona.png";
-import OldWireframe1 from "./wireframe_old1.png";
-import OldPrototype from "./Group7.png";
-import NewWireframe from "./wireframes_new.png";
-import NewPrototype from "./new_wireframe.png";
+
+import Header from "./header.png";
+import Solution001 from "./pz-image001.png";
+import Solution002 from "./pz-image002.png";
+import Solution003 from "./pz-image003.png";
+import Codic from "./codic.png";
+import Programming from "./programming.png";
+import OldPZ from "./old-pz.png";
+import NewPZ from "./newPZ.png";
+import logo from "./logo.png";
+import Login from "./Login.png";
+import Course from "./course.png";
+import Structure from "./structure.png";
+import Quiz from "./quiz.png";
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function ProgramavimoZinynas() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="main-container">
-      <h2 className="main-title">Programavimo žinynas</h2>
-      <div className="img-holder">
-        <img className="main-header" src={Header}></img>
+    <div className="header-container">
+      <img className="header" src={Header}></img>
+      <div className="paragraph-container">
+        <h2 className="subclass">Problem statement</h2>
+        <h3 className="large-title">
+          It’s hard to find a balance between learning and socialising
+        </h3>
+        <p className="text-field">
+          A lot of people would love to start their journey in IT as a
+          programmer, an analyst or something else entirely. But starting to
+          learn programming to most people can be seen as a huge challenge: some
+          don’t have enough time to sit around at home and watch tutorials,
+          others just don’t want to lose their friends.
+        </p>
+        <p className="text-field-normal">
+          Besides, finding learning material can be challenging, especially if
+          you’re just starting your learning journey in IT.
+        </p>
       </div>
-      <p className="under-text">
-        To view the full prototype you can click
-        <a
-          className="link"
-          href="https://www.figma.com/file/2H36JtV2OQiS3YTwWzWVci/Programavimo-zinynas-v.0.0.2?node-id=0%3A1"
-          target="_blank"
+      <div className="paragraph-container">
+        <h2
+          className="subclass"
+          style={{
+            paddingTop: 60,
+          }}
         >
-          here
-        </a>
-      </p>
+          Solution
+        </h2>
+        <h3 className="large-title">
+          Let people learn in a fun and handy way.{" "}
+        </h3>
+        <div className="flex-container">
+          <div className="text-flex-container">
+            <h3 className="text-title">Learn while socialising</h3>
+            <p className="solution-text">
+              Learn information in bite sized chunks and participate in
+              quiz-type battles between users.
+            </p>
+            <p className="solution-text">
+              Track progress on various programming courses and share it with
+              friends via social media.
+            </p>
+          </div>
 
-      <h3 className="section-title">Introduction</h3>
-      <p className="section-body">
-        ''Programavimo žinynas" is a mobile application prototype that I created
-        during one of my university courses, but after finishing my course I
-        decided that the app prototype was still not good enough for me. That is
-        why I took it up to revamp the design of this application during my own
-        free time.
-      </p>
-      <h3 className="section-smaller-title">Main requirements</h3>
-      <p className="section-body">
-        1. The prototype is created for Android mobile users.
-      </p>
-      <p className="section-body">
-        2. The application must be translated to Lithuanian.
-      </p>
-
-      <h3 className="section-smaller-title">Methods:</h3>
-      <p className="section-body">Surveys, Wireframes, Prototyping.</p>
-
-      <h3 className="section-smaller-title">Tools:</h3>
-      <p className="section-body">Figma, Adobe Photoshop</p>
-
-      <h3 className="section-title">Research</h3>
-      <h3 className="section-smaller-title">Competitor analysis</h3>
-      <p className="section-body">
-        To get a better understanding of my main competitors I analysed 3
-        programming apps. During my analysis I downloaded all 3 apps and tested
-        them using certain criteria:
-      </p>
-      <ol className="p-formating">
-        <li> Easy to navigate.</li>
-        <li> Visually appealing design</li>
-        <li> Consistency</li>
-      </ol>
-      <p className="section-body">
-        One of three applications did not meet the designated criteria. It had a
-        very outdated look: it was overflowing with content and it was hard to
-        understand where I should find relevant information. The other analysed
-        applications had consistent designs in all pages, it was very easy to
-        navigate and they even offered a tutorial on how to use their apps.
-      </p>
-      <h3 className="section-smaller-title">Surveys</h3>
-      <p className="section-body">
-        After seeing what programming apps were available on the “Google Play
-        Store” I interviewed 3 people that had at least a minimal amount of
-        experience in the programming field. From those interviews I created
-        user personas.
-      </p>
-      <p className="section-body">
-        Some of the key findings that I collected:
-        <ol className="p-formating">
-          <li>Keep it simple: the design should be simple and easy to use.</li>
-          <li>
-            {" "}
-            Modern approach: users wanted the design to keep up with the current
-            design standards.
-          </li>
-          <li>
-            {" "}
-            Interactivity: users specified that it’s important to have some kind
-            of interactivity in the app: progress sharing, quizzes.
-          </li>
-        </ol>
-      </p>
-      <div className="body-container">
-        <img className="body-images" src={Persona}></img>
+          <img className="solution-image" src={Solution001}></img>
+        </div>
+        <div
+          className="flex-container"
+          style={{
+            marginLeft: -20,
+          }}
+        >
+          <div className="text-flex-container">
+            <h3 className="text-title">ALL INFORMATION IN ONE PLACE</h3>
+            <p className="solution-text">
+              Find all information about an area of interest in one structured
+              place.
+            </p>
+            <p className="solution-text">
+              Take your time to learn and do it one lesson at a time.
+            </p>
+          </div>
+          <img className="solution-image-big" src={Solution002}></img>
+        </div>
+        <div
+          className="flex-container"
+          style={{
+            marginLeft: -20,
+          }}
+        >
+          <div className="text-flex-container">
+            <h3 className="text-title">REWARDING EXPERIENCE</h3>
+            <p className="solution-text">
+              Feel accomplished after taking small step towards your programming
+              journey
+            </p>
+          </div>
+          <img className="solution-image-big001" src={Solution003}></img>
+        </div>
+        <h2 className="subclass">Research</h2>
+        <h3 className="text-title-sub">competitor analysis</h3>
+        <p className="text-field">
+          Since programming apps in the “Google Play Store” have their fair
+          competition, I wanted to analyse 2 programming applications and see
+          what trends they are using and what I can learn or improve on
+          accordingly.
+        </p>
+        <div className="competitors">
+          <img
+            src={Codic}
+            className="competitors-img"
+            style={{
+              paddingTop: 20,
+            }}
+          ></img>
+          <img src={Programming} className="competitors-img"></img>
+        </div>
+        <h3 className="text-title-sub">surveys</h3>
+        <p className="text-field">
+          After seeing what programming apps were available on the “Google Play
+          Store”, I interviewed 3 people that had at least a minimal amount of
+          experience in the IT field. The interviewees shared their frustations
+          with the current programming applications and explained what would
+          motivate them to broaden their experience in programming.
+        </p>
+        <h2
+          className="subclass"
+          style={{
+            paddingTop: 60,
+          }}
+        >
+          Insights
+        </h2>
+        <h3 className="large-title">
+          Encouragement and socialization while learning will keep them going
+          forward in their programming journey.
+        </h3>
+        <p className="text-field">
+          The intervieweers often feel unmotivated while reading or watching
+          tutorials online. They want to change the habit of only reading or
+          watching and to actually participate in some interactive activity,
+          either solving quizes or learning while being in a group with others.
+        </p>
+        <p className="text-field-normal">
+          According to survey participants - current applications often don’t
+          have finely structured information about certain topic, which
+          discourages them from using the app.
+        </p>
+        <h2
+          className="subclass"
+          style={{
+            paddingTop: 60,
+          }}
+        >
+          DESIGN
+        </h2>
+        <h3 className="text-title-sub">DESIGN PROCESS</h3>
+        <p className="text-field">
+          The “Programavimo žinynas” prototype had two different versions: the
+          first one, that I created during my university course, and the second
+          one, in which I updated the design a couple of months later. I felt
+          that from the UI standpoint the application felt dull and incosistent,
+          so I wanted to give my application an identity, a different feel from
+          others.
+        </p>
+        <h3 className="versions">Version 1</h3>
+        <img src={OldPZ} className="image-container-4"></img>
+        <h3
+          className="versions"
+          style={{
+            paddingBottom: 16,
+          }}
+        >
+          Version 2
+        </h3>
+        <div className="container-logo">
+          <p
+            className="text-field"
+            style={{
+              paddingBottom: 60,
+            }}
+          >
+            I began the update process by looking through the old prototype and
+            thinking what could be improved. Since I wanted to give the
+            application an identity, I drew an original logotype using a graphic
+            tablet. I also created new course cards and removed white space
+            where it wasn’t needed.
+          </p>
+          <div
+            style={{
+              paddingBottom: 60,
+              marginRight: 294,
+            }}
+          >
+            <img className="logo" src={logo}></img>
+          </div>
+        </div>
+        <img src={NewPZ} className="image-container-4"></img>
+        <h2
+          className="subclass"
+          style={{
+            paddingTop: 60,
+            paddingBottom: 25,
+          }}
+        >
+          FINAL PRODUCT
+        </h2>
+        <h3 className="text-title-sub">onboarding & lOGIN & rEGISTRATION</h3>
+        <img src={Login} className="image-container-3"></img>
+        <h3
+          className="text-title-sub"
+          style={{
+            paddingTop: 40,
+          }}
+        >
+          Courses, FAVORITES list
+        </h3>
+        <img src={Course} className="image-container-3"></img>
+        <h3
+          className="text-title-sub"
+          style={{
+            paddingTop: 40,
+            paddingBottom: 40,
+          }}
+        >
+          course structure
+        </h3>
+        <img src={Structure} className="image-container-4"></img>
+        <h3
+          className="text-title-sub"
+          style={{
+            paddingTop: 40,
+          }}
+        >
+          QUIZ, PROGRESS
+        </h3>
+        <img
+          src={Quiz}
+          className="image-container-3"
+          style={{
+            paddingBottom: 50,
+          }}
+        ></img>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <button className="view-btn">
+            <a
+              style={{
+                textDecoration: "none",
+                color: "white",
+              }}
+              href="https://www.figma.com/file/2H36JtV2OQiS3YTwWzWVci/Programavimo-zinynas-v.0.0.2?node-id=0%3A1"
+              target="_blank"
+            >
+              View full prototype
+            </a>
+          </button>
+        </div>
       </div>
-      <h3 className="section-title">Design process</h3>
-      <p className="section-body">
-        The design process for this application was a very long journey for me,
-        but I learned a lot. After reviewing the information that I received
-        from users and having the requirements that were created beforehand I
-        showed the application to my university professor. But I was not
-        satisfied with the end result. After a while, I revamped the application
-        during my freetime and even designed a hand made logo for it.
-      </p>
-      <p className="under-text">
-        Wireframes for the first version of the application:
-      </p>
-      <div className="body-container">
-        <img className="body-images" src={OldWireframe1}></img>
-      </div>
-      <p className="under-text">
-        Prototype for the first version of the application:
-      </p>
-      <div className="body-container">
-        <img className="body-images" src={OldPrototype}></img>
-      </div>
-      <p className="section-body">
-        I started looking through the old ”Programavimo žinynas” wireframes and
-        prototypes and wondered how I could improve everything. I decided to
-        make a number of small adjustments to some of the elements and to
-        completely overhaul the others.
-      </p>
-      <p className="under-text">
-        Wireframes for the second version of the application:
-      </p>
-      <div className="body-container">
-        <img className="body-images" src={NewWireframe}></img>
-      </div>
-      <p className="under-text">Final product</p>
-      <div className="body-container">
-        <img className="body-images" src={NewPrototype}></img>
-      </div>
-      <p className="section-body">
-        After a lot of thinking and altering I achieved what the users’ needed
-        and I wanted myself: to make visually appealing applications that not
-        only have all the needed content for programming but also offer some
-        sort of interactivity: programming battles with friends or quizzes after
-        reaching the capstone of a course. I made sure that the application was
-        easy to use. I added indicators so the user would know where to go and
-        what to do.
-      </p>
-      <h3 className="section-title">Retrospective</h3>
-      <h3 className="section-smaller-title">Challenges</h3>
-      <p className="section-body">
-        My biggest challenge was to lay out the elements in a way that would
-        make everything else look cohesive. I struggled a lot with the bottom
-        navigation bar since it just didn't feel right. But in the end I managed
-        to style it in the way that I wanted it to look like.
-      </p>
-      <h3 className="section-smaller-title">What I learned</h3>
-      <p className="section-body">
-        The most important thing I learned was how to make an app easy to use. I
-        tried to make the text readable by adjusting the line height and colors.
-        Also, after learning about the Nielsen heuristics in university I tried
-        to take them into account while designing my application. I added
-        multiple application status indicators so the users know how far they
-        are in the course, how much time is left in the quiz, etc.
-      </p>
     </div>
   );
 }
