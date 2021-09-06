@@ -7,6 +7,7 @@ import MainPage from "./components/MainPage";
 import ProgramavimoZinynas from "./pages/programavimoZinynasPage";
 
 import notesAppPage from "./pages/notesAppPage";
+import Drauge from "./pages/drauge";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={MainPage} />
         <Route path="/projects/notesApp" component={notesAppPage} />
+        <Route path="/projects/drauge" component={Drauge} />
         <Route
           path="/projects/programavimoZinynas"
           component={ProgramavimoZinynas}

@@ -16,16 +16,20 @@ const Projects = () => {
         <div className="project-container-flex">
           <div className="project-container">
             {/* <p className="tags">UX Design, Internship</p> */}
-            <h2>Volunteering application "Drauge"</h2>
+            <h2 id="link-v">Volunteering application "Drauge"</h2>
+
             <p className="overflow">
               Simplified volunteering, which allows it’s users to create or join
               various volunteerings events, based on what individualistic values
               they want to improve or learn.
             </p>
-            <img className="image-header" src={Volunteer}></img>
+            <Link to="/projects/drauge">
+              <img className="image-header" src={Volunteer}></img>
+            </Link>
           </div>
           <div className="project-container">
-            <h2>Notes Application</h2>
+            <h2 id="link-n">Notes Application</h2>
+
             <p>
               The magic of how application design can be translated to code.
             </p>
@@ -36,7 +40,8 @@ const Projects = () => {
         </div>
         <div className="project-container-flex">
           <div className="project-container">
-            <h2>Programavimo Žinynas</h2>
+            <h2 id="link-pz">Programavimo Žinynas</h2>
+
             <p>
               An application that helps people to improve and to learn
               programming languages.

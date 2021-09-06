@@ -129,17 +129,15 @@ function NotesApp() {
               justifyContent: "center",
             }}
           >
-            <button className="view-btn">
-              <a
-                style={{
-                  textDecoration: "none",
-                  color: "white",
-                }}
-                href="https://www.figma.com/file/6cu6pc5ytMy2Ess7vYackW/NotesApp?node-id=0%3A1"
-                target="_blank"
-              >
-                View full prototype
-              </a>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://www.figma.com/file/6cu6pc5ytMy2Ess7vYackW/NotesApp?node-id=204%3A2";
+              }}
+              className="view-btn"
+            >
+              View full prototype
             </button>
           </div>
         </div>

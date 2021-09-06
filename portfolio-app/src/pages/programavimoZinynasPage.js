@@ -253,17 +253,15 @@ function ProgramavimoZinynas() {
             justifyContent: "center",
           }}
         >
-          <button className="view-btn">
-            <a
-              style={{
-                textDecoration: "none",
-                color: "white",
-              }}
-              href="https://www.figma.com/file/2H36JtV2OQiS3YTwWzWVci/Programavimo-zinynas-v.0.0.2?node-id=0%3A1"
-              target="_blank"
-            >
-              View full prototype
-            </a>
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://www.figma.com/file/2H36JtV2OQiS3YTwWzWVci/Programavimo-zinynas-v.0.0.2?node-id=0%3A1";
+            }}
+            id="pz-btn"
+          >
+            View full prototype
           </button>
         </div>
       </div>
