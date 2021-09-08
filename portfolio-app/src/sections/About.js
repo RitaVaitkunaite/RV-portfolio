@@ -10,38 +10,6 @@ import { Link } from "react-scroll";
 const About = () => {
   return (
     <div className="about-section" id="about">
-      {/* <div className="container-flex">
-        <div className="background-section">
-          <h1 className="name-section">Welcome I'm Rita</h1>
-          <img src={Main}></img>
-        </div>
-        <div className="text-container">
-          <p className="text-field">
-            I am an aspiring UX/UI designer who’s passionate about making
-            meaningful impacts on the lives of others. Innovative technologies
-            and smart decisions - that's what I believe is needed to make life
-            easier and simpler for all of us.
-          </p>
-        </div>
-      </div> */}
-      {/* <div className="background">
-        <div className="flex">
-          <img className="left-circle" src={Circle1}></img>
-          <img className="right-circle" src={Circle2}></img>
-        </div>
-        <h1 style={{ color: "white" }} className="name-section">
-          Welcome I'm Rita
-        </h1>
-      </div>
-      <div className="text-container">
-        <p className="text-field">
-          I am an aspiring UX/UI designer who’s passionate about making
-          meaningful impacts on the lives of others. Innovative technologies and
-          smart decisions - that's what I believe is needed to make life easier
-          and simpler for all of us.
-        </p>
-      </div> */}
-
       <div className="greetings-section">
         <div>
           <div className="circles">
