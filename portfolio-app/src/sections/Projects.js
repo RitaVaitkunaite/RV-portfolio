@@ -37,7 +37,7 @@ const Projects = () => {
         </div>
         <img src={Card002}></img>
       </div>
-      <div class="container">
+      <div class="container" style={{ paddingBottom: 40 }}>
         <img src={Card001}></img>
         <div class="container__text">
           <h2>Programavimo žinynas</h2>

@@ -6,11 +6,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <ul>
-          <li>Rita Vaitkūnaitė</li>
-        </ul>
+        <h4>Rita Vaitkūnaitė</h4>
       </div>
-      <ul>
+      <ul className="nav-links">
         <Link
           activeClass="active"
           to="about"
