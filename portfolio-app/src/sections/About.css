@@ -1,45 +1,99 @@
-/* .main-section {
-  background-color: #f0f0f0;
-  width: 780px;
-  height: 355px;
-  border-radius: 10px;
-  display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.background-section img {
+  width: 45%;
+  padding-top: 5rem;
 }
-.about-section {
-  display: flex;
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #262626;
+}
+::-webkit-scrollbar-thumb {
+  background: #b93388;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #690a46;
+  border-radius: 20px;
+}
+.name-section {
+  color: #f0f0f0;
+  position: absolute;
+  top: 58%;
+  left: 50.3%;
+  transform: translate(-50%, -50%);
+  font-size: 4.3rem;
+  font-family: "Inter";
+}
+.text-field {
+  color: #f0f0f0;
+}
+.text-container {
+  margin-left: 20rem;
+  margin-top: 1rem;
+  width: 48%;
+}
+.background-section {
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-} */
-.text-section {
-  width: 820px;
-  height: 276px;
-  margin-left: 3.6rem;
-  margin-top: -7rem;
-  font-size: 24px;
+  align-items: center; */
+  position: relative;
+  text-align: center;
+  color: white;
 }
+.text-section {
+  margin-left: 3.6rem;
+  margin-top: -12rem;
+  font-size: 23px;
+  color: #f0f0f0;
+  width: 60%;
+  font-weight: regular;
+}
+
 .name {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 0rem;
+  padding-bottom: 7rem;
+}
+.name h2 {
   display: flex;
   margin-top: -1rem;
   margin-left: 0.6rem;
   padding-bottom: 7rem;
+  font-family: "Inter";
 }
 .highlighted-name {
   margin-left: 1rem;
-  color: #5d3ed9;
+  color: #b93388;
+  font-family: "Inter";
+  word-spacing: 5px;
 }
 .greetings-title {
-  padding-top: 100px;
+  padding-top: 6rem;
+  font-family: "Inter";
 }
+
 .greetings-section {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
   margin-left: 3rem;
-  font-size: 50px;
+  font-size: 3.3rem;
+  color: #f0f0f0;
 }
 .about-icons {
   display: flex;
   padding-left: 30px;
+}
+.icons {
+  display: flex;
+  color: #f0f0f0;
+}
+.icons-arrow {
+  margin-top: 2rem;
+  margin-left: 0.4rem;
 }
 .about-icons img {
   width: 30px;
@@ -90,4 +144,54 @@
 }
 .main-section-icons {
   display: flex;
+}
+
+.right-circle {
+  position: absolute;
+  left: 46%;
+  width: 25%;
+  top: 11%;
+  animation-name: example1;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.left-circle {
+  position: absolute;
+  width: 25%;
+  top: 11%;
+  left: 25%;
+  animation-name: example;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+.name-new {
+  position: relative;
+}
+@keyframes example {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes example1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.circles {
+  position: absolute;
+  left: 50%;
+}
+.circles img {
+  width: 74%;
 }

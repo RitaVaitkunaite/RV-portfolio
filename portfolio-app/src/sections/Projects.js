@@ -1,98 +1,55 @@
 import React from "react";
-import { render } from "react-dom";
-import notesApp from "./img11.png";
-import ProgramavimoZ from "./img13.png";
 import { Link } from "react-router-dom";
-import ds from "./../sections/Group48.png";
-import Notes from "./../sections/Notes.png";
-import Volunteer from "./../sections/Volunteer.png";
+import Card001 from "./../sections/Card001.png";
+import Card002 from "./../sections/Card002.png";
+import Card003 from "./../sections/Card003.png";
+import "./Projects.css";
+
 const Projects = () => {
   return (
     <div className="projects-section" id="projects">
       <div className="projects">
-        <h2>My Projects</h2>
+        <h2 style={{ paddingTop: 50 }}>My Projects</h2>
       </div>
-      <div className="project-container-align">
-        <div className="project-container-flex">
-          <div className="project-container">
-            {/* <p className="tags">UX Design, Internship</p> */}
-            <h2 id="link-v">Volunteering application "Drauge"</h2>
-
-            <p className="overflow">
-              Simplified volunteering, which allows it’s users to create or join
-              various volunteerings events, based on what individualistic values
-              they want to improve or learn.
-            </p>
-            <Link to="/projects/drauge">
-              <img className="image-header" src={Volunteer}></img>
-            </Link>
-          </div>
-          <div className="project-container">
-            <h2 id="link-n">Notes Application</h2>
-
-            <p>
-              The magic of how application design can be translated to code.
-            </p>
-            <Link to="/projects/notesApp">
-              <img className="image-header" src={Notes}></img>
-            </Link>
-          </div>
-        </div>
-        <div className="project-container-flex">
-          <div className="project-container">
-            <h2 id="link-pz">Programavimo Žinynas</h2>
-
-            <p>
-              An application that helps people to improve and to learn
-              programming languages.
-            </p>
-            <Link to="/projects/programavimoZinynas">
-              <img className="image-header001" src={ds}></img>
-            </Link>
-          </div>
-        </div>
-        {/* <div className="project-container">
-          <h2>Programavimo Žinynas</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-            purus sit Lorem{" "}
+      <div class="container">
+        <img src={Card003}></img>
+        <div class="container__text">
+          <h2>Drauge</h2>
+          <p style={{ fontSize: 27 }}>
+            Simplified volunteering, which allows it’s users to create or join
+            various volunteerings events, based on what individualistic values
+            they want to improve or learn.
           </p>
-          <img className="image-header" src={ds}></img>
+          <Link to="/projects/drauge">
+            <button className="btn-case">View Case Study</button>
+          </Link>
         </div>
-        <div className="project-container">
-          <h2>Programavimo Žinynas</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-            purus sit Lorem{" "}
-          </p>
-          <img className="image-header" src={ds}></img>
-        </div>
-        <div className="project-container">
-          <h2>Programavimo Žinynas</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-            purus sit Lorem{" "}
-          </p>
-          <img className="image-header" src={ds}></img>
-        </div> */}
       </div>
-      {/* <div className="projects-section-wrapper">
-        <h2>Projects</h2>
-        <div className="image-layout">
-          <div className="card">
-            <Link to="/projects/notesApp">
-              <img src={notesApp}></img>
-            </Link>
-            <p>Notes application</p>
-          </div>
-          <div className="card">
-            <Link to="/projects/programavimoZinynas">
-              <img src={ProgramavimoZ}></img>
-            </Link>
-            <p className="under-text">Programavimo žinynas</p>
-          </div>
+      <div class="container-left">
+        <div class="container__text-left">
+          <h2>Notes Application</h2>
+          <p>The magic of how application design can be translated to code.</p>
+          <Link to="/projects/notesApp">
+            <button className="btn-case" style={{ marginTop: 50 }}>
+              View Case Study
+            </button>
+          </Link>
         </div>
-      </div> */}
+        <img src={Card002}></img>
+      </div>
+      <div class="container">
+        <img src={Card001}></img>
+        <div class="container__text">
+          <h2>Programavimo žinynas</h2>
+          <p>
+            An application that helps people to learn and improve their
+            knowledge of programming languages.
+          </p>
+          <Link to="/projects/programavimoZinynas">
+            <button className="btn-case">View Case Study</button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

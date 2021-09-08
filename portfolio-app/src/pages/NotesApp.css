@@ -108,10 +108,11 @@
   width: 20%;
   padding-top: 20px;
 }
-.view-btn {
+
+#view-btn-notes {
   padding: 15px 100px;
   margin-bottom: 100px;
-  border-radius: 10px;
+  border-radius: 30px;
   border: none;
   color: #f0f0f0;
   background-color: #3e7bc3;

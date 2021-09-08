@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import "./NotesApp.css";
 import Header from "./headerNotes.png";
 import Solution004 from "./solution004.png";
@@ -10,8 +9,6 @@ import AB from "./a-b.png";
 import Main from "./mainpage.png";
 import Add from "./add.png";
 import Text from "./text.png";
-
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function NotesApp() {
   useEffect(() => {
@@ -135,7 +132,7 @@ function NotesApp() {
                 window.location.href =
                   "https://www.figma.com/file/6cu6pc5ytMy2Ess7vYackW/NotesApp?node-id=204%3A2";
               }}
-              className="view-btn"
+              id="view-btn-notes"
             >
               View full prototype
             </button>

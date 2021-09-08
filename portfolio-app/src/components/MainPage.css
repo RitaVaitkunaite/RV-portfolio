@@ -3,46 +3,14 @@
   font-family: "Poppins";
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 8vh;
-  display: flex;
-}
 .navbar ul {
   list-style: none;
 
   color: #464646;
 }
 
-.projects-section {
-  height: 100vh;
-  background-color: #ffffff;
-}
 .navbar .active {
-  border-bottom: 3px solid #5d3ed9;
-}
-/* .about-section {
-  height: 100vh;
-  background-size: cover;
-  background-image: url(https://images.pexels.com/photos/4457896/pexels-photo-4457896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-} */
-.contact-section {
-  height: 100vh;
-  /* background-color: #f0f0f0; */
-  background-color: brown;
-}
-
-.image-layout {
-  display: flex;
-  justify-content: space-evenly;
-}
-.projects-section-wrapper > h2 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-align: center;
-  color: #464646;
+  border-bottom: 3px solid #b93388;
 }
 
 .navbar {
@@ -51,127 +19,39 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: white;
-  border-bottom: #d7d7d7 1px solid;
+  background-color: #262626;
+  /* border-bottom: #464646 1px solid; */
   align-items: center;
-  margin-right: 400px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  z-index: 900;
 }
 .logo {
   /* margin-left: -544px; */
   position: relative;
-  margin-right: 52.4rem;
+  margin-right: 54.6rem;
   font-weight: bolder;
+  z-index: 920;
 }
 .navbar ul {
   list-style: none;
   text-align: right;
-  color: #464646;
+  color: #f0f0f0;
 }
 
 .projects-section {
-  height: 100vh;
-  background-color: #ffffff;
-  display: flex;
-}
-.image-header {
-  width: 80%;
-}
-.projects {
   width: 100%;
-}
-.projects h2 {
-  font-size: 26px;
-  margin-top: 4rem;
-  margin-left: 5.5rem;
-  color: #464646;
-}
-.tags {
-  text-transform: uppercase;
-  font-size: 11px;
+  height: 250vh;
+  background-color: #262626;
 }
 
-.project-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0.4rem;
-  margin-top: 3rem;
-}
-.project-container-align {
-  margin-top: 3rem;
-}
-.project-container h2 {
-  color: #464646;
-  margin-top: 1rem;
-  font-size: 19px;
-  margin: 0;
-  padding: 0;
-}
-.project-container p {
-  color: #464646;
-  width: 23rem;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  font-weight: regular;
-  margin-top: 6px;
-  margin-bottom: 15px;
-  line-height: 1.8;
-}
-.project-container-flex {
-  display: flex;
-  row-gap: 2rem;
-}
-.image-header001 {
-  width: 41%;
-}
-.text-overflow {
-  text-overflow: ellipsis;
-}
-.navbar > .active {
-  border-bottom: 1px solid #333;
-}
 .about-section {
-  height: 94vh;
+  height: 110vh;
   /* background-color: #f0f0f0; */
   /* background-color: blueviolet; */
   margin-top: -22px;
-  background-color: #fff500;
-}
-.contact-section {
-  height: 100vh;
-  /* background-color: #f0f0f0; */
-  background-color: brown;
-}
-
-.image-layout {
-  display: flex;
-  justify-content: space-evenly;
-}
-.projects-section-wrapper > h2 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-align: center;
-  color: #464646;
-}
-
-.card p {
-  text-align: center;
-  font-weight: bolder;
-  margin-top: 5px;
-}
-.card img {
-  border-radius: 0.8rem;
-  box-shadow: 0 0.2rem 0.6rem 0.4rem rgba(0, 0, 0, 0.15);
-}
-#link-pz:hover {
-  color: #5d3ed9;
-  cursor: pointer;
-}
-#link-n:hover {
-  color: #5d3ed9;
-  cursor: pointer;
-}
-#link-v:hover {
-  color: #5d3ed9;
-  cursor: pointer;
+  background-color: #262626;
 }

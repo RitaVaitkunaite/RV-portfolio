@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import "./drauge.css";
 import Header from "./drauge.png";
 import Problems from "./problems.png";
@@ -12,7 +11,6 @@ import participants from "./participants.png";
 import onboarding from "./onboarding.png";
 import map from "./map.png";
 import create from "./create.png";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function Drauge() {
   useEffect(() => {
@@ -22,18 +20,45 @@ function Drauge() {
     <div className="header-container">
       <img className="header" src={Header}></img>
       <div className="paragraph-container">
-        <h2 id="subclass-v">Problem statement</h2>
-        <h3 className="large-title-v">
+        <h2 id="subclass-v" style={{ marginTop: 50 }}>
+          INTRO
+        </h2>
+        <h3 className="large-title-v" style={{ color: "#F0F0F0" }}>
+          Simplified volunteering, which allows it’s users to create or join
+          various volunteerings events, based on what individualistic values
+          they want to improve or learn.
+        </h3>
+        <div style={{ display: "flex", marginTop: 30, fontSize: 20 }}>
+          <p
+            style={{ color: "#F0F0F0", fontWeight: "bolder", paddingRight: 15 }}
+          >
+            Project
+          </p>
+          <p style={{ color: "#F0F0F0" }}>TietoEVRY "Mėnuo su IT" internship</p>
+        </div>
+        <div style={{ display: "flex", marginTop: 20, fontSize: 20 }}>
+          <p
+            style={{ color: "#F0F0F0", fontWeight: "bolder", paddingRight: 10 }}
+          >
+            Timeline
+          </p>
+          <p style={{ color: "#F0F0F0" }}>4 weeks</p>
+        </div>
+
+        <h2 id="subclass-v" style={{ marginTop: 50, fontSize: 25 }}>
+          Problem statement
+        </h2>
+        <h3 className="large-title-v" style={{ color: "#F0F0F0" }}>
           Individuals don’t see any reason to invest their valuable time in
           volunteering.<br></br> How can we change that?
         </h3>
         <p className="text-field">
-          During this project I was so happy to have Product Owner, who I can
-          ask questions, who knows all the details about the problem we are
-          facing. Product Owner stated, that people often don’t volunteer
-          because they don’t see reason why invest time in volunteering. Product
-          Owner indentified other issues about current volunteering applications
-          and the problem as a whole
+          During this project I was so happy to have a Product Owner who I could
+          ask questions, since they knew all of the details about the problem we
+          are facing. The Product Owner stated that people often don’t volunteer
+          because they don’t see reason whythey should invest time in
+          volunteering. The Product Owner indentified other issues about current
+          volunteering applications and the problem as a whole.
         </p>
         <div className="paragraph-container-notes">
           <img className="problem-container" src={Problems}></img>
@@ -107,13 +132,13 @@ function Drauge() {
                 take a look at your time investment
               </h3>
               <p className="solution-text">
-                Profile page is the place where you want to come back everyday
-                and see which qualities you developed by participating in
+                A profile page to which you want comeback everyday and see the
+                qualities you developed by participating in the initiatives.
                 initiatives.
               </p>
               <p className="solution-text">
-                You are helping others, we don’t want to push the negativity so
-                only see positives reviews about yourself.
+                You are helping others, we don’t want to put negativity on your
+                shoulders, so only see positives reviews about yourself.
               </p>
             </div>
             <img className="solution-image-big-v" src={Solution007}></img>
@@ -128,20 +153,22 @@ function Drauge() {
           </h2>
           <h3 className="text-title-sub">design process </h3>
           <p className="text-field">
-            Design process started when Product Owner explained application’s
-            theme and the problems surrounding it. At first my idea was to have
-            a onboarding screen, where the user can pick which categories
-            interest him the most, such as animals, education, culture and etc.
-            But after long deliberation I thought why not offer much more?
+            The design process started when the Product Owner explained the
+            application’s theme and the problems surrounding it. At first, my
+            idea was to have an onboarding screen where the user would pick
+            which categories interest them the most, such as animals, education,
+            culture and etc. But after long deliberations I thought to myself:
+            why not offer much more?
           </p>
           <p className="text-field">
-            People can learn, overcome their fears by volunteering (If person is
-            afraid of public speaking and wants to conquer it, he would benefit
-            from volunteering in a place where communication is vital).
+            People can learn and overcome their fears by volunteering (if a
+            person is afraid of public speaking and wants to conquer this fear -
+            he would benefit from volunteering in a place where communication is
+            vital).
           </p>
           <p className="text-field">
-            After the main idea was set I began a “true” design process with
-            many alterations and other difficulties that were ahead.
+            After the main idea was set, I began a “true” design process, which
+            included many alterations and other difficulties.
           </p>
           <h3
             className="text-title-sub"
@@ -171,19 +198,21 @@ function Drauge() {
             Reliability issue
           </h3>
           <p className="text-field">
-            After having almost all main functionalities done I thought: how can
-            iniciator and volunteer communicate with each other, how
-            initiative's organizer will know who came to his volunteering event.
-            From volunteer’s perspective I implemented a comments section, where
-            user can ask all question related to event.
+            After having almost all main functionalities done, I started
+            thinking: how can the iniciator and volunteer communicate with each
+            other, how will the iniciative’s organizer know who came to their
+            volunteering event. From the volunteer’s perspective, I implemented
+            a comments section where the user could ask all of their questions
+            that were related to the event.
           </p>
           <img src={questions} className="image-container-1" style={{}}></img>
           <p className="text-field">
-            From organizer’s perspective I implemented a new window, where he
-            can see all his participants, their name, phone number, email in
-            case of some uncertainties. Additionally, organizer can have a look
-            on how each participant behaves in initiative: how many positive
-            reviews they have.
+            From the organizer’s perspective, I implemented a new window where
+            they could see all the participants, including their name, phone
+            number and email (in case of some uncertainties). Additionally, the
+            organizer can have a look at how each participant behaves in the
+            iniciatives: how many positive reviews they have, the percentage of
+            successfully attended volunteering events.
           </p>
           <img
             src={participants}
@@ -197,7 +226,7 @@ function Drauge() {
           <img
             src={onboarding}
             className="image-container-3-v"
-            style={{}}
+            style={{ marginTop: -20 }}
           ></img>
           <h3 className="text-title-sub" style={{ paddingTop: 20 }}>
             Map, initiatives list, Filter

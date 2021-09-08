@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 import "./Main.css";
 
 import Header from "./header.png";
@@ -10,13 +10,10 @@ import Codic from "./codic.png";
 import Programming from "./programming.png";
 import OldPZ from "./old-pz.png";
 import NewPZ from "./newPZ.png";
-import logo from "./logo.png";
 import Login from "./Login.png";
 import Course from "./course.png";
 import Structure from "./structure.png";
 import Quiz from "./quiz.png";
-
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function ProgramavimoZinynas() {
   useEffect(() => {
@@ -27,7 +24,7 @@ function ProgramavimoZinynas() {
     <div className="header-container">
       <img className="header" src={Header}></img>
       <div className="paragraph-container">
-        <h2 className="subclass">Problem statement</h2>
+        <h2 id="subclass-z">Problem statement</h2>
         <h3 className="large-title">
           It’s hard to find a balance between learning and socialising
         </h3>
@@ -45,7 +42,7 @@ function ProgramavimoZinynas() {
       </div>
       <div className="paragraph-container">
         <h2
-          className="subclass"
+          id="subclass-z"
           style={{
             paddingTop: 60,
           }}
@@ -103,7 +100,7 @@ function ProgramavimoZinynas() {
           </div>
           <img className="solution-image-big001" src={Solution003}></img>
         </div>
-        <h2 className="subclass">Research</h2>
+        <h2 id="subclass-z">Research</h2>
         <h3 className="text-title-sub">competitor analysis</h3>
         <p className="text-field">
           Since programming apps in the “Google Play Store” have their fair
@@ -153,7 +150,7 @@ function ProgramavimoZinynas() {
           discourages them from using the app.
         </p>
         <h2
-          className="subclass"
+          id="subclass-z"
           style={{
             paddingTop: 60,
           }}
@@ -169,12 +166,15 @@ function ProgramavimoZinynas() {
           so I wanted to give my application an identity, a different feel from
           others.
         </p>
-        <h3 className="versions">Version 1</h3>
+        <h3 className="versions" style={{ color: "#f0f0f0" }}>
+          Version 1
+        </h3>
         <img src={OldPZ} className="image-container-4"></img>
         <h3
           className="versions"
           style={{
             paddingBottom: 16,
+            color: "#f0f0f0;",
           }}
         >
           Version 2
@@ -197,13 +197,11 @@ function ProgramavimoZinynas() {
               paddingBottom: 60,
               marginRight: 294,
             }}
-          >
-            <img className="logo" src={logo}></img>
-          </div>
+          ></div>
         </div>
         <img src={NewPZ} className="image-container-4"></img>
         <h2
-          className="subclass"
+          id="subclass-z"
           style={{
             paddingTop: 60,
             paddingBottom: 25,
