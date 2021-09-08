@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RV-portfolio/static/css/main.505733dd.chunk.css",
+    "main.css": "/RV-portfolio/static/css/main.63744bd6.chunk.css",
     "main.js": "/RV-portfolio/static/js/main.9088cee1.chunk.js",
     "main.js.map": "/RV-portfolio/static/js/main.9088cee1.chunk.js.map",
     "runtime-main.js": "/RV-portfolio/static/js/runtime-main.05fb8cf2.js",
@@ -10,7 +10,7 @@
     "static/js/3.2b8d5021.chunk.js": "/RV-portfolio/static/js/3.2b8d5021.chunk.js",
     "static/js/3.2b8d5021.chunk.js.map": "/RV-portfolio/static/js/3.2b8d5021.chunk.js.map",
     "index.html": "/RV-portfolio/index.html",
-    "static/css/main.505733dd.chunk.css.map": "/RV-portfolio/static/css/main.505733dd.chunk.css.map",
+    "static/css/main.63744bd6.chunk.css.map": "/RV-portfolio/static/css/main.63744bd6.chunk.css.map",
     "static/js/2.f7b73f11.chunk.js.LICENSE.txt": "/RV-portfolio/static/js/2.f7b73f11.chunk.js.LICENSE.txt",
     "static/media/Card001.0a1821ea.png": "/RV-portfolio/static/media/Card001.0a1821ea.png",
     "static/media/Card002.8cce01be.png": "/RV-portfolio/static/media/Card002.8cce01be.png",
@@ -52,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.05fb8cf2.js",
     "static/js/2.f7b73f11.chunk.js",
-    "static/css/main.505733dd.chunk.css",
+    "static/css/main.63744bd6.chunk.css",
     "static/js/main.9088cee1.chunk.js"
   ]
 }
